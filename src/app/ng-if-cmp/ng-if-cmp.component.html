@@ -1,0 +1,51 @@
+ngIf
+<hr><br>
+
+<!-- Case 1: ngIf STANDARD -->
+
+<div *ngIf="!isLoggedIn">
+  Please login, friend.
+</div>
+
+<!-- End case 1 -->
+
+
+
+
+
+
+
+<!-- Case 2: NGIF and ELSE -->
+
+<!-- <div *ngIf="isLoggedIn; else loggedOut">
+  Welcome back, friend.
+</div>
+
+<ng-template #loggedOut>
+  Please friend, login.
+</ng-template> -->
+
+<!-- End Case 2 -->
+
+
+
+
+
+<!-- Case 3: THEN && ELSE -->
+
+<!-- <div
+  *ngIf="isLoggedIn; then loggedIn; else loggedOut">
+</div>
+
+<ng-template #loggedIn>
+  <div>
+    Welcome back, friend.
+  </div>
+</ng-template>
+<ng-template #loggedOut>
+  <div>
+    Please friend, login.
+  </div>
+</ng-template> -->
+
+<!-- End Case 3 -->
